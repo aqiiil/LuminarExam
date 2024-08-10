@@ -1,7 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+
 
 }
 
@@ -13,55 +14,56 @@ border-radius: 0;
 }
 
 #navbarSupportedContent{
-margin-left: 300px;
+margin-left: 273px;
 }
 
 #bannerimg{
-    margin-left: 340px;
-    
+  margin-left: 340px;
+  
+  
 }
 
-.container{
-    position: relative;
-    
-    color: rgb(0, 0, 0);
-  }
+.containera{
+  position: relative;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+}
 
-  .container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Cover the full width of the container */
-    height: 100%;
-    background: linear-gradient(to right, white 35%, rgba(255, 255, 255, 0) 70%);
-    pointer-events: none;
-  }
+.containera::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Cover the full width of the container */
+  height: 100%;
+  background: linear-gradient(to right, white 35%, rgba(255, 255, 255, 0) 70%);
+  pointer-events: none;
+}
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 24%;
-    transform: translate(-50%, -50%);
-    font-size: 23px;
-  }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+}
 
-  #bannerimg{
-    margin-left: 480px;
-  }
+#bannerimg{
+  margin-left: 480px;
+}
 
 
 #logoo{
-    margin-left: 220px;
+  margin-left: 220px;
 }
 
 .btncontainer{
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .services{
-    background-color: rgba(206, 199, 199, 0.343);
-    padding: 400px;
+  background-color: rgba(206, 199, 199, 0.343);
+  padding: 400px;
 }
 .services h1{
 margin-left: 335px;
@@ -69,47 +71,67 @@ margin-left: 335px;
 }
 
 .servicecontainer{
-    position: relative;
-    background: rgb(221, 221, 221);
-    padding: 400px;
-  }
-
-  .centeredserv {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-
-  .centeredserv h1{
-    font-size: 30px;
-  }
-
-  .card1{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
-    background-image: url("./web-design.png");
-    background-size: contain;
-    
+  position: relative;
+  background: rgba(255, 239, 239, 0.673);
+  padding: 400px;
 }
-.card2{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
+
+.centeredserv {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
-.card3{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
+
+.centeredserv h1{
+  font-size: 30px;
 }
-.card4{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
+
+.servicebackground{
+  background: rgb(243, 240, 240);
+  height: 690px;
 }
+
+.content{
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+
+.headingg{
+  padding-top: 30px;
+}
+
+/* Cards */
+
+.row{
+  padding-top: 60px;
+}
+
+.col{
+  padding: 50px;
+  background-color: white;
+  margin-right: 20px;
+  position: relative;
+  
+}
+
+.img{
+  padding-bottom: 10px;
+}
+.imgs{
+  padding-bottom: 3px;
+}
+
+/*  Web Design Portfolio  */
+
+
+/*  Hidden Brands We impact */
+
+
+ /*  Let's do something great together  */
+
+
+  /*  Footer  */
+   
